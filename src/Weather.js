@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import App.css from "./App";
 
 export default function Weather() {
   let [input, setInput] = useState("");
@@ -47,6 +46,12 @@ export default function Weather() {
             <img src={weather.icon} alt="Weather Icon" />
           </li>
         </ul>
+        <a href="https://github.com/denissea12/weather-app">Open-source code</a>{" "}
+        by{" "}
+        <a href="https://www.shecodes.io/graduates/131305-denisse-ramirez">
+          Denisse Ramirez
+        </a>{" "}
+        on SheCodes
       </div>
     );
   } else {
